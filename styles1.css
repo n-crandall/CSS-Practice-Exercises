@@ -63,6 +63,6 @@ a:active {
 
 /* Inherits font color from the footer */
 .footer a {
-    color: inherit;
+    color: initial;
     text-decoration: underline;
 }
