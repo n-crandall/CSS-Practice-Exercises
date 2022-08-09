@@ -1,3 +1,8 @@
+/* An inherited property will be applied to descendant elements as well */
+body {
+    font-family: sans-serif;
+}
+
 /* reduces the margins */
 h1 {
     color: #2f4f4f;
