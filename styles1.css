@@ -26,6 +26,6 @@ h1 {
 }
 
 /* makes declaration higher priority */
-.featured {
-    background-color: orange !important; 
+ #main-nav .featured {
+    background-color: orange; 
 }
