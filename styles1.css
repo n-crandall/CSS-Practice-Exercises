@@ -5,19 +5,19 @@ h1 {
 }
 
 /* removes user-agent list styles */
-#main-nav {
+.nav {
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
 }
 
 /* makes list items appear side by side rather than stacked */
-#main-nav li {
+.nav li {
     display: inline-block;
 }
 
 /* provides button-like appearance for nav links */
-#main-nav a {
+.nav a {
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -26,6 +26,6 @@ h1 {
 }
 
 /* makes declaration higher priority */
- #main-nav .featured {
+ .nav .featured {
     background-color: orange; 
 }
