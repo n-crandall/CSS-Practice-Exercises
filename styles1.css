@@ -35,8 +35,10 @@ h1 {
 }
 
 /* makes declaration higher priority */
+/* Shadow offset 10px to the right and 2px down */
  .nav .featured {
-    background-color: orange; 
+    background-color: orange;
+    box-shadow: 10px 2px #6f9090; 
 }
 
 a:link {
