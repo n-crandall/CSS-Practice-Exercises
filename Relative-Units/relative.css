@@ -36,7 +36,9 @@ ul ul {
 
 /* Uses ems for padding and border-radius */
 /* Uses 1px for a thin border */
+/* Added predictable font-size */
 .panel {
+    font-size: 1rem;
     padding: 1em;
     border-radius: 0.5em;
     border: 1px solid #999;
@@ -44,11 +46,17 @@ ul ul {
 
 /* Removes extra space from the panel top */
 /* Styles the heading font using rems for font size */
+/* Used ems to make font size scale with .panel */
 .panel > h2 {
     margin-top: 0;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+/* Compound selector targets elements with both panel and large classes */
+.panel .large {
+    font-size: 1.2rem;
 }
 
 .box {
