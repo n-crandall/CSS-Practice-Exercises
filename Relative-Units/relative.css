@@ -1,6 +1,7 @@
 :root {
     font-size: calc(0.5em + 1vw);
     --main-font: Helvetica, Arial, sans-serif;
+    --brand-color: #369;
 }
 
 @media (min-width: 800px) {
@@ -21,6 +22,7 @@ body {
 
 p {
     font-family: var(--main-font);
+    color: var(--brand-color);
 }
 
 .about-us {
