@@ -41,11 +41,12 @@ main {
     border-radius: .5em;
 }
 
-/* floats sidebar left and sets the width at 30% */
+/* floats sidebar left and sets the width */
 .sidebar {
     box-sizing: border-box;
     float: left;
-    width: 30%;
+    width: 29%;
+    margin-left: 1%;
     padding: 1.5em;
     background-color: #fff;
     border-radius: .5em;
