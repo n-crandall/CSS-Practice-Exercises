@@ -76,3 +76,9 @@ ul ul {
 .panel-boxes {
     margin: 2em;
 }
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #369;
+}
