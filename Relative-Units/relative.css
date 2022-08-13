@@ -2,6 +2,8 @@
     font-size: calc(0.5em + 1vw);
     --main-font: Helvetica, Arial, sans-serif;
     --brand-color: #369;
+    --main-bg: #fff;
+    --main-color: #000;
 }
 
 @media (min-width: 800px) {
@@ -53,6 +55,8 @@ ul ul {
     padding: 1em;
     border-radius: 0.5em;
     border: 1px solid #999;
+    background-color: var(--main-bg);
+    color: var(--main-color);
 }
 
 /* Removes extra space from the panel top */
