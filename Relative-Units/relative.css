@@ -3,7 +3,11 @@ body {
 }
 
 .slogan {
+    /* 19.2px */
     font-size: 1.2em;
+    /* 23.04px */
+    padding: 1.2em;
+    background-color: #ccc;
 }
 
 .padded {
