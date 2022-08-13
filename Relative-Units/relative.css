@@ -88,6 +88,17 @@ ul ul {
     font-size: 18px;
 }
 
+/* Puts a margin between the dark container and preceeding panel */
+/* Applies a dark gray background to the dark container */
+/* Redefines the --main-bg and --main-color variables within the scope of the container */
+.dark {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #999;
+    --main-bg: #333;
+    --main-color: #fff;
+}
+
 .panel-boxes {
     margin: 2em;
 }
