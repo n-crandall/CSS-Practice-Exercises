@@ -52,3 +52,7 @@ ul ul {
 .box-large {
     font-size: 18px;
 }
+
+.panel-boxes {
+    margin: 2em;
+}
