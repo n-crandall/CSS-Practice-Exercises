@@ -10,6 +10,11 @@
     box-sizing: inherit;
 }
 
+/* Convert third party component into content-box */
+.third-party-component {
+    box-sizing: content-box;
+}
+
 body {
     background-color: #eee;
     font-family: Helvetica, Arial, sans-serif;
