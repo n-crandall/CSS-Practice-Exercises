@@ -47,5 +47,17 @@
             <div class='body'>We have built partnerships with small farms around the world to hand-select beans at the peak of season. We then carefully roast in <a href='/batch-size'>small batches</a> to maximize their potential.</div>
         </div>
 </aside>
+<!-- Gets the styles object for an element -->
+<script type='text/javascript'>
+    let rootElement = document.documentElement;
+    let styles = getComputedStyle(rootElement);
+    // Gets the --main-bg value from the styles object
+    let mainColor = styles.getPropertyValue('--main-bg');
+    // Ensures mainColor is a String an trims whitespace; logs '#fff'
+    console.log(String(mainColor).trim());
+
+    // Sets --main-bg to a light blue on the root element
+    rootElement.style.setProperty('--main-bg', '#cdf');
+</script>
 </body>
 </html>
