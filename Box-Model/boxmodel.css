@@ -15,7 +15,9 @@ main {
 }
 
 /* floats the main column left and sets width at 70% */
+/* Corrected alignment with border-box sizing */
 .main {
+    box-sizing: border-box;
     float: left; 
     width: 70%;
     background-color: #fff;
@@ -24,6 +26,7 @@ main {
 
 /* floats sidebar left and sets the width at 30% */
 .sidebar {
+    box-sizing: border-box;
     float: left;
     width: 30%;
     padding: 1.5em;
