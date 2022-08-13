@@ -22,9 +22,21 @@ ul ul {
     background-color: #ccc;
 }
 
-.padded {
-    font-size: 16px;
+/* Uses ems for padding and border-radius */
+/* Uses 1px for a thin border */
+.panel {
     padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
+}
+
+/* Removes extra space from the panel top */
+/* Styles the heading font using rems for font size */
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .box {
