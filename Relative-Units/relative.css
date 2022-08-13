@@ -21,8 +21,8 @@ body {
 }
 
 p {
-    font-family: var(--main-font);
-    color: var(--brand-color);
+    font-family: var(--main-font, sans-serif);
+    color: var(--secondary-color, blue);
 }
 
 .about-us {
