@@ -1,8 +1,13 @@
+/* Applies border box sizing to root element */
+:root {
+    box-sizing: border-box;
+}
+
 /* Applies border box sizing to all elements and psuedo-elements */
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
