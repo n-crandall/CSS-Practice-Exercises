@@ -31,30 +31,19 @@ main {
     display: block;
 }
 
-/* Adds a new wrapper element with negative margins */
-.wrapper {
-    margin-left: -1.5em;
-    margin-right: -1.5em;
+/* Applies flexbox to container */
+.container {
+    display: flex;
 }
 
-/* Makes container resemble table and fill its width with border spacing between cells*/
-.container {
-    display: table;
-    width: 100%;
-    border-spacing: 1.5em 0;
-}
-/* floats the main column left and sets width at 70% */
-/* Corrected alignment with border-box sizing */
+/* Items inside flex container don't need floats or display properties */
 .main {
-    display: table-cell;
     width: 70%;
     background-color: #fff;
     border-radius: .5em;
 }
 
-/* floats sidebar left and sets the width */
 .sidebar {
-    display: table-cell;
     width: 30%;
     margin-left: 1.5em;
     padding: 1.5em;
