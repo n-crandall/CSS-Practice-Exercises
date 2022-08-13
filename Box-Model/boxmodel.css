@@ -14,12 +14,18 @@ main {
     display: block;
 }
 
+/* floats the main column left and sets width at 70% */
 .main {
+    float: left; 
+    width: 70%;
     background-color: #fff;
     border-radius: .5em;
 }
 
+/* floats sidebar left and sets the width at 30% */
 .sidebar {
+    float: left;
+    width: 30%;
     padding: 1.5em;
     background-color: #fff;
     border-radius: .5em;
