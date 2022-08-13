@@ -2,6 +2,10 @@ body {
     font-size: 16px;
 }
 
+ul {
+    font-size: .8em;
+}
+
 .slogan {
     /* 19.2px */
     font-size: 1.2em;
