@@ -1,5 +1,6 @@
 :root {
     font-size: calc(0.5em + 1vw);
+    --main-font: Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 800px) {
@@ -16,6 +17,10 @@
 
 body {
     line-height: 1.2;
+}
+
+p {
+    font-family: var(--main-font);
 }
 
 .about-us {
