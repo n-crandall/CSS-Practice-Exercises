@@ -1,3 +1,11 @@
+body {
+    font-size: 16px;
+}
+
+.slogan {
+    font-size: 1.2em;
+}
+
 .padded {
     font-size: 16px;
     padding: 1em;
