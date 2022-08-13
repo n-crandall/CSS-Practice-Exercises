@@ -31,10 +31,17 @@ main {
     display: block;
 }
 
-/* Makes container resemble table and fill its width */
+/* Adds a new wrapper element with negative margins */
+.wrapper {
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+}
+
+/* Makes container resemble table and fill its width with border spacing between cells*/
 .container {
     display: table;
     width: 100%;
+    border-spacing: 1.5em 0;
 }
 /* floats the main column left and sets width at 70% */
 /* Corrected alignment with border-box sizing */
