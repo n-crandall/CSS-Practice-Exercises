@@ -6,6 +6,10 @@ ul {
     font-size: .8em;
 }
 
+ul ul {
+    font-size: 1em;
+}
+
 .slogan {
     /* 19.2px */
     font-size: 1.2em;
