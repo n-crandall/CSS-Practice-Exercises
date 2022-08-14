@@ -58,6 +58,19 @@ header {
     clear: left;
 }
 
+.media-image {
+    float: left;
+}
+
+/* Removes top margin applied by lobotomized owl */
+.media-body {
+    margin-top: 0;
+}
+
+/* Overrides top margin applied by user agent styles */
+.media-body h4 {
+    margin-top: 0;
+}
 /* Causes both ::before and ::after pseudo elements to appear */
 /* Prevents margins from collapsing through the pseudo elements */
 .clearfix::before,
