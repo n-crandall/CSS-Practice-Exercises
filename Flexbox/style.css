@@ -117,3 +117,41 @@ body * + * {
     padding: .5em 1em;
     cursor: pointer;
 }
+
+.centered {
+    text-align: center;
+}
+
+/* Centers flex items on both the main and cross axes */
+.cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: .7;
+}
+
+/* Overrides margins from the lobotomized owl */
+.cost > span {
+    margin-top: 0;
+}
+
+/* Sets different font sizes for each part of the cost */
+.cost-currency {
+    font-size: 2rem;
+}
+.cost-dollars {
+    font-size: 4rem;
+}
+.cost-cents {
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
+.cta-button {
+    display: block;
+    background-color: #cc6b5a;
+    color: white;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
