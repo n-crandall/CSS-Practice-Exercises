@@ -49,3 +49,13 @@ body * + * {
     color: white;
     text-decoration: none;
 }
+
+/* Targets every list item that follows another list item (all but first) */
+.site-nav > li + li {
+    margin-left: 1.5em;
+}
+
+/* Auto margins inside a flexbox will fill the available space */
+.site-nav > .nav-right {
+    margin-left: auto;
+}
