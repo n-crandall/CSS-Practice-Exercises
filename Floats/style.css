@@ -58,12 +58,16 @@ header {
     clear: left;
 }
 
+/* Adds space between image and the body */
 .media-image {
     float: left;
+    margin-right: 1.5em;
 }
 
 /* Removes top margin applied by lobotomized owl */
+/* Establishes a new block formatting context so the body doesn't overlap the floated image */
 .media-body {
+    overflow: auto;
     margin-top: 0;
 }
 
