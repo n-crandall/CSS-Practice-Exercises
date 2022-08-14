@@ -21,7 +21,7 @@ body * + * {
 
 /* Header colors and padding */
 header {
-    padding 1em 1.5em;
+    padding: 1em 1.5em;
     color: #fff;
     background-color: #0072b0;
     border-radius: .5em;
@@ -48,4 +48,13 @@ header {
     padding: 1.5em;
     background-color: #eee;
     border-radius: 0.5em;
+}
+
+/* Targets the pseudo-element at the end of the container */
+/* Non-inline display value and a content value cause the pseudo-element to appear in the document */
+/* Makes the pseudo-element clear all floats in the container */
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
 }
