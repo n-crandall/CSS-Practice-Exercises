@@ -41,21 +41,10 @@ header {
     margin: 0 auto;
 }
 
-/* Floats each media box to left and sets a width to fit two boxes across page */
-/* Adds a right and bottom margin to each media element */
-/* Subtracts the margin from the width to avoid unwanted line-wrapping */
 .media {
-    float: left;
-    margin: 0 1.5em 1.5em 0;
-    width: calc(50% - 1.5em);
     padding: 1.5em;
     background-color: #eee;
     border-radius: 0.5em;
-}
-
-/* Each new row clears the row above */
-.media:nth-child(odd) {
-    clear: left;
 }
 
 /* Adds space between image and the body */
