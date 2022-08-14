@@ -78,9 +78,9 @@ body * + * {
 }
 
 .column-main {
-    flex: 2;
+    flex: 66.67%;
 }
 
 .column-sidebar {
-    flex: 1;
+    flex: 33.33%;
 }
