@@ -1,0 +1,17 @@
+/* Makes the element a grid container */
+/* Defines three columns of equal width */
+/* Defines two rows of equal height */
+/* Applies a gutter between each grid cell */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.grid > * {
+    background-color: darkgray;
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+}
